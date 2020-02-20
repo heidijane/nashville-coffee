@@ -1,0 +1,47 @@
+@import url("shop.css");
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #5f5656;
+    background: linear-gradient(rgba(48, 48, 48, 0.85), rgba(48,48,48,.85)), url("images/coffee_bean_texture.jpg");
+    border-collapse: collapse;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration:none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color:white;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: red;
+}
+
+.pageHeader {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: .5em;
+    text-align: center;
+    color:rgb(207, 199, 199);
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+

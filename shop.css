@@ -1,0 +1,87 @@
+.shop {
+    border: rgb(21, 21, 21) 1px solid;
+    flex-basis: 30%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:0 0 1em 0;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-content: space-between;
+}
+
+.shop__name {
+    margin:0;
+    padding: .7em;
+    background-color: rgba(0, 0, 0, .5);
+    color:white;
+    font-size: 1.15em;
+    display: inline-block;
+   }
+
+.shop ul {
+    color:white;
+    background-color: rgb(58, 54, 54);
+    font-size:.80em;
+    align-self: flex-end;
+    margin:0;
+}
+
+.shop__TheJam {
+   background-image: url("images/the_jam.jpg");
+}
+
+.shop__TheWell {
+    background-image: url("images/the_well.jpg");
+ }
+
+ .shop__RedBicycle {
+    background-image: url("images/red_bicycle.jpg");
+ }
+
+ .shop__Crema {
+    background-image: url("images/crema.jpg");
+ }
+
+ .shop__FrothyMonkey {
+    background-image: url("images/frothy_monkey.jpg");
+ }
+
+ .shop__8AndRoast{
+    background-image: url("images/8th_and_roast.jpg");
+ }
+
+ .shop__BongoJava{
+    background-image: url("images/bongo_java.jpg");
+ }
+ 
+ .shop__Flatrock{
+    background-image: url("images/flatrock.jpg");
+ }
+
+ .shop__Fido{
+    background-image: url("images/fido.jpg");
+ }
+
+ .shop__SteadfastCoffee{
+    background-image: url("images/steadfast.jpg");
+ }
+
+ .shop__DoseCoffee{
+    background-image: url("images/dose.jpg");
+ }
+
+ .shop__SamAndZoes{
+    background-image: url("images/sam_and_zoes.jpg");
+ }
+
+ .shop__SlowHandCoffee{
+    background-image: url("images/slow_hand.jpg");
+ }
+
+ .shop__TheHorn{
+    background-image: url("images/the_horn.jpg");
+ }
+
+
